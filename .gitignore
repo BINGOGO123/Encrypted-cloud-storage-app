@@ -13,3 +13,8 @@ secure_encrypt_server/migrations/*
 __pycache__
 
 .vs
+
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
