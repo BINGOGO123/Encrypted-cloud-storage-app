@@ -6,6 +6,14 @@
 
 服务器通过linux + apache + mysql + django的模式实现后端api
 
+## 介绍
+
+1. 数据所有者建立密文系统，分享共享信息使得其他人可以搜索文件
+2. 支持加密状态下多个关键词按照相关性顺序返回结果
+3. 数据所有者可对每个用户和文件进行属性访问权限控制
+
+[下载安卓app](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/releases)
+
 ## 文件说明
 
 ```
@@ -89,12 +97,11 @@ web服务器apache
 >
 > django3.0.2
 
-
 ### 1. RuntimeError: populate() isn't reentrant
 
 一开始500错误，查看服务器日志，发现**RuntimeError: populate() isn't reentrant**这个错误，然后根据：
 
-https://stackoverflow.com/questions/27093746/django-stops-working-with-runtimeerror-populate-isnt-reentrant
+<https://stackoverflow.com/questions/27093746/django-stops-working-with-runtimeerror-populate-isnt-reentrant>
 
 所说的改了django/apps/registry.py的内容，就可以看到具体的错误了。
 
@@ -141,7 +148,7 @@ initialLogger()
 
 在解决了一些问题之后，发现服务器日志报错：**timeout when reading response headers from daemon process**
 
->  这里我们参照：https://stackoverflow.com/questions/40413171/django-webfaction-timeout-when-reading-response-headers-from-daemon-process解决了这个问题
+>  这里我们参照：<https://stackoverflow.com/questions/40413171/django-webfaction-timeout-when-reading-response-headers-from-daemon-process解决了这个问题>
 
 解决方法：在apache配置文件中加入：
 
