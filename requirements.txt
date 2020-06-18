@@ -12,7 +12,7 @@ cryptography==2.8
 cycler==0.10.0
 Cython==0.29.14
 decorator==4.4.1
-Django==3.0.2
+Django==3.0.7
 django-cors-headers==3.2.1
 h5py==2.10.0
 idna==2.8
@@ -37,7 +37,7 @@ numpy==1.17.4
 pandas==0.25.3
 parso==0.5.1
 pickleshare==0.7.5
-Pillow==6.2.1
+Pillow==7.1.2
 prompt-toolkit==2.0.10
 pycparser==2.20
 pycryptodome==3.9.7
