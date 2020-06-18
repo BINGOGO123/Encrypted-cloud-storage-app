@@ -42,9 +42,35 @@ searchable_encryption
         |   ...
 ```
 
+## 本地测试
+
+1. clone并运行django服务器
+
+    ```
+    $ git clone https://github.com/BINGOGO123/Encrypted-cloud-storage-app
+    $ cd Encrypted-cloud-storage-app
+    $ pip install -r requirements.txt
+    
+    $ python manage.py makemigrations
+    $ python manage.py migrate
+    $ python manage.py runserver
+    ```
+
+2. 运行vue服务器
+
+    > 在此之前需要先将`cloud_client/src/config.json`命名为别的名字，然后把`cloud_client/src/config_test.json`重命名为`config.json`
+    
+    ```
+    $ cd cloud_client
+    $ npm install
+    $ npm run serve
+    ```
+
+3. 打开网址 http://localhost:8080 进行访问
+
 ## 部署时遇到的问题
 
-服务器环境如下：
+**记录了在如下服务器环境中部署时遇到的问题，具体步骤不详述。**
 
 操作系统centos7
 
