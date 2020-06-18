@@ -163,6 +163,9 @@ WSGIApplicationGroup %{GLOBAL}
 
 ## 几张截图
 
+<img style="width:200px" src="https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/1.jpg" />
+<img style="width:200px" src="https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/2.jpg" />
+
 ![图片1](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/1.jpg)
 ![图片2](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/2.jpg)
 ![图片3](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/3.jpg)
