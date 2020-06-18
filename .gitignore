@@ -1,0 +1,15 @@
+剩下的问题.txt
+
+media/encrypt_file/*
+media/secure_file/*
+
+logs/*
+
+backend/migrations/*
+!backend/migrations/__init__.py
+secure_encrypt_server/migrations/*
+!secure_encrypt_server/migrations/__init__.py
+
+__pycache__
+
+.vs

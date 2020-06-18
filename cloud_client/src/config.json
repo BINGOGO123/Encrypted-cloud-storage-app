@@ -1,0 +1,17 @@
+{
+  "registerInterface":"http://www.bingoz.cn/searchable_encryption/api/register/",
+  "loginInterface":"http://www.bingoz.cn/searchable_encryption/api/login/",
+  "login_confirm":"http://www.bingoz.cn/searchable_encryption/api/login_confirm/",
+  "logout":"http://www.bingoz.cn/searchable_encryption/api/logout/",
+  "get_user_attribute":"http://www.bingoz.cn/searchable_encryption/api/get_user_attribute/",
+  "delete_user_attribute":"http://www.bingoz.cn/searchable_encryption/api/delete_user_attribute/",
+  "add_user_attribute":"http://www.bingoz.cn/searchable_encryption/api/add_user_attribute/",
+  "get_own_attribute":"http://www.bingoz.cn/searchable_encryption/api/get_own_attribute/",
+  "secure_encrypt_server":"http://www.bingoz.cn/searchable_encryption/file/upload/",
+  "upload_ex":"http://www.bingoz.cn/searchable_encryption/file/upload_ex/",
+  "giveup_upload":"http://www.bingoz.cn/searchable_encryption/file/giveup_upload/",
+  "build_searchable_cloud_syetem":"http://www.bingoz.cn/searchable_encryption/file/build_searchable_cloud_syetem/",
+  "search_file":"http://www.bingoz.cn/searchable_encryption/file/search_file/",
+  "success":0,
+  "error":1
+}
