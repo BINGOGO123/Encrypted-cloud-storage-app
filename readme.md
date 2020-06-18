@@ -163,19 +163,19 @@ WSGIApplicationGroup %{GLOBAL}
 
 ## 截图示例
 
-![图片1](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/1.jpg")
+![图片1](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/1.jpg)
 > 账户系统
 
-![图片5](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/5.jpg")
+![图片5](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/5.jpg)
 > 生成加密文件系统
 
-![图片10](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/10.jpg")
+![图片10](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/10.jpg)
 > 密钥管理
 
-![图片12](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/12.jpg")
+![图片12](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/12.jpg)
 > 搜索
 
-![图片17](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/17.jpg")
+![图片17](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/blob/master/screenshoot/17.jpg)
 > 用户权限管理
 
 [点击查看全部图片](https://github.com/BINGOGO123/Encrypted-cloud-storage-app/tree/master/screenshoot)
