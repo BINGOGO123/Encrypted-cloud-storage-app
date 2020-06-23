@@ -164,6 +164,26 @@ WSGIApplicationGroup %{GLOBAL}
 
 对于项目的所有代码都需要确保权限正确
 
+### 6.mysqlclient版本错误
+
+httpd日志报错：**django.core.exceptions.ImproperlyConfigured: mysqlclient 1.3.13 or newer is required; you have 0.9.3.**
+> 参考：<https://stackoverflow.com/questions/55657752/django-installing-mysqlclient-error-mysqlclient-1-3-13-or-newer-is-required>中修改\_\_init\_\_.py中pymysql代码的回答
+
+因为用pymysql代替了mysqlclient，而pymysql的版本是0.9.3，因此服务器报这个错误，并且更改mysqlclient无效，解决方法是更改`searchable_encryption/__init__.py`中的代码，如下：
+
+原代码：
+```python
+import pymysql
+pymysql.install_as_MySQLdb()
+```
+
+新代码
+```python
+import pymysql
+pymysql.version_info = (1, 3, 13, "final", 0)
+pymysql.install_as_MySQLdb()
+```
+
 ### 下面是完整的apache虚拟机代码
 
 ```conf
