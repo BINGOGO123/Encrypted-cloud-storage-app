@@ -33,7 +33,7 @@ matplotlib==3.2.0rc2
 mccabe==0.6.1
 mysqlclient==1.4.6
 nltk==3.5
-numpy==1.17.4
+numpy==1.22.0
 pandas==0.25.3
 parso==0.5.1
 pickleshare==0.7.5
