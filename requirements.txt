@@ -28,7 +28,7 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 kiwisolver==1.1.0
 lazy-object-proxy==1.4.3
-lxml==4.4.2
+lxml==4.9.1
 matplotlib==3.2.0rc2
 mccabe==0.6.1
 mysqlclient==1.4.6
