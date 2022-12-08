@@ -3,7 +3,7 @@ astroid==2.3.2
 backcall==0.1.0
 beautifulsoup4==4.8.1
 bs4==0.0.1
-certifi==2019.9.11
+certifi==2022.12.7
 cffi==1.14.0
 chardet==3.0.4
 click==7.1.1
